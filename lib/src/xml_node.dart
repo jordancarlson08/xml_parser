@@ -363,7 +363,7 @@ abstract class XmlNode {
   ///
   /// Returns `null` if the [uri] can't be reached or no valid XML nodes
   /// are found in the returned document.
-  static Future<dynamic?> fromUri(
+  static Future<dynamic> fromUri(
     String uri, {
     bool parseCharacterEntities = true,
     bool parseComments = false,
